@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:healthapp/screen/home_page.dart';
+import 'package:healthapp/screen/home_page_responsive.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +24,8 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      // home: const HomePage(),
+      home: const HomePageResponsive(),
     );
   }
 }
